@@ -12,3 +12,18 @@
   border: 1px pink dashed;
   text-align: center;
 }
+
+@media(max-width: 992px){
+}
+
+@media(max-width: 768px) {
+  .container{
+   display: block;
+  }
+}
+
+@media(max-width: 480px) {
+  .container{
+   display: block;
+  }
+}
