@@ -1,9 +1,14 @@
 .container{
   border: 1px orange dotted;
+  height: 50vh;
+  margin: 20px;
   display: flex;
+  // display: block;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .value-card{
   border: 1px pink dashed;
-
+  text-align: center;
 }
