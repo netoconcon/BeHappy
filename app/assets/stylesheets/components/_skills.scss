@@ -1,4 +1,8 @@
 .container-skills{
   border: 1px orange dotted;
+  margin: 20px auto;
   height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
