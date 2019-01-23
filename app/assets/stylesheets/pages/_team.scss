@@ -1,0 +1,13 @@
+.container-mediator{
+  border: 1px pink dotted;
+  margin: 20px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.card-mediator{
+  text-align: justify;
+  flex: 0 0 40%;
+}
