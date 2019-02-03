@@ -7,7 +7,10 @@ class PagesController < ApplicationController
   def project
   end
 
-  def service
+  def condominios
+  end
+
+  def startups
   end
 
   def metodologia
