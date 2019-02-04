@@ -20,6 +20,5 @@ class PagesController < ApplicationController
   end
 
   def dashboard
-    @prospects = Prospect.all
   end
 end
