@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'conflitos/index'
+  get 'conflitos/show'
+  get 'conflitos/new'
+  get 'conflitos/create'
+  get 'conflitos/edit'
+  get 'conflitos/update'
+  get 'conflitos/destroy'
   devise_for :users
   root to: 'pages#home'
   get 'team', to: 'pages#team'
