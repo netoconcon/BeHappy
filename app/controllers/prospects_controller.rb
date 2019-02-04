@@ -1,6 +1,14 @@
 class ProspectsController < ApplicationController
+  def index
+    @prospects = Prospect.all
+  end
+
   def show
     @prospect = Prospect.find(params[:id])
+  end
+
+  def new
+    @prospect = Prospect.new
   end
 
   def create
@@ -15,5 +23,11 @@ class ProspectsController < ApplicationController
   end
 
   def destroy
+  end
+
+  private
+
+  def prospect_params
+    params.require(:prospect).permit(:name, :email, :title, :message, :subscribed, :answered)
   end
 end

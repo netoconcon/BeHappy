@@ -2,7 +2,6 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:home, :project, :condominios, :startups , :metodologia, :team]
 
   def home
-    @prospect = Prospect.new
   end
 
   def project
@@ -21,5 +20,6 @@ class PagesController < ApplicationController
   end
 
   def dashboard
+    @prospects = Prospect.all
   end
 end
