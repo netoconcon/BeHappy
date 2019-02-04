@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'prospects/show'
+  get 'prospects/create'
+  get 'prospects/edit'
+  get 'prospects/update'
+  get 'prospects/destroy'
   devise_for :users
   root to: 'pages#home'
   get 'team', to: 'pages#team'
