@@ -1,0 +1,2 @@
+class Conflito < ApplicationRecord
+end
