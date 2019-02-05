@@ -1,2 +1,11 @@
-<h1>Conflitos#show</h1>
-<p>Find me in app/views/conflitos/show.html.erb</p>
+
+<h1>Mensagem</h1>
+
+<%= link_to "Back Messages", dashboard_path, class: "btn btn-primary" %>
+ <%= link_to "Edit Message", edit_conflito_path(@conflito), class: "btn btn-primary" %>
+
+<p>Nome: <%= @conflito.name %></p>
+<p>Email: <%= @conflito.email %></p>
+<p>Mensagem: <%= @conflito.message %></p>
+<p>Subscribed: <%= @conflito.subscribed %></p>
+<p>Respondida: <%= @conflito.answered %></p>

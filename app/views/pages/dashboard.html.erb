@@ -1,1 +1,27 @@
+<h2>Prospects</h2>
 
+<div class="container">
+
+<% link_to "Go to Prospects", root_path, class: "btn btn-success" %>
+
+<table class="table table-bordered">
+        <tbody>
+          <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Title</th>
+            <th>Message</th>
+          </thead>
+          <% @conflitos.each do |conflito| %>
+            <tr>
+              <td><%= conflito.id %></td>
+              <td><%= link_to conflito.name, conflito_path(conflito) %></td>
+              <td><%= conflito.email %></td>
+              <td><%= conflito.title %></td>
+              <td><%= conflito.message %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+</div>

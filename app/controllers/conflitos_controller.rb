@@ -40,7 +40,7 @@ class ConflitosController < ApplicationController
 
   private
 
-  def prospect_params
+  def conflito_params
     params.require(:conflito).permit(:name, :email, :title, :message, :subscribed, :answered)
   end
 
