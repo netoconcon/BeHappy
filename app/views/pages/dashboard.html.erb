@@ -12,6 +12,8 @@
             <th>Email</th>
             <th>Title</th>
             <th>Message</th>
+            <th>Assinante?</th>
+             <th>Respondido?</th>
           </thead>
           <% @conflitos.each do |conflito| %>
             <tr>
@@ -20,6 +22,8 @@
               <td><%= conflito.email %></td>
               <td><%= conflito.title %></td>
               <td><%= conflito.message %></td>
+              <td><%= conflito.subscribed %></td>
+              <td><%= conflito.answered %></td>
             </tr>
           <% end %>
         </tbody>
