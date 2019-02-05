@@ -10,7 +10,7 @@ class ConflitosController < ApplicationController
   end
 
   def new
-    @conflit = Conflito.new
+    @conflito = Conflito.new
   end
 
   def create
