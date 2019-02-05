@@ -6,8 +6,8 @@ class CreateConflitos < ActiveRecord::Migration[5.2]
       t.string :category
       t.string :title
       t.text :message
-      t.boolean :subscribed
-      t.boolean :answered
+      t.boolean :subscribed , default: false
+      t.boolean :answered, default: false
 
       t.timestamps
     end
