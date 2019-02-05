@@ -20,5 +20,6 @@ class PagesController < ApplicationController
   end
 
   def dashboard
+    @conflitos = Conflito.all
   end
 end

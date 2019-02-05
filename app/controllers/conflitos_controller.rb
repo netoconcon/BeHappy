@@ -37,4 +37,11 @@ class ConflitosController < ApplicationController
     @conflito.destroy
     redirect_to conflitos_path
   end
+
+  private
+
+  def prospect_params
+    params.require(:conflito).permit(:name, :email, :title, :message, :subscribed, :answered)
+  end
+
 end
