@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_04_235303) do
+ActiveRecord::Schema.define(version: 2019_02_05_004649) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,18 +23,6 @@ ActiveRecord::Schema.define(version: 2019_02_04_235303) do
     t.text "message"
     t.boolean "subscribed", default: false
     t.boolean "answered", default: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "prospects", force: :cascade do |t|
-    t.string "name"
-    t.string "email"
-    t.string "category"
-    t.string "title"
-    t.text "message"
-    t.boolean "subscribed"
-    t.boolean "answered"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

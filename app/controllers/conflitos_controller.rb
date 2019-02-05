@@ -17,6 +17,7 @@ class ConflitosController < ApplicationController
     @conflito = Conflito.new(conflito_params)
     if @conflito.save
       redirect_to root_path
+      flash[:notice] = "Mensagem enviada! Retornaremos em breve"
     else
       render 'new'
     end
