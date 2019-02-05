@@ -1,2 +1,19 @@
-<h1>Conflitos#new</h1>
-<p>Find me in app/views/conflitos/new.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h2>Envie uma mensagem</h2>
+      <%= simple_form_for @prospect do |f| %>
+        <%= f.input :name, label: 'Nome'%>
+        <%= f.input :email %>
+        <%= f.input :title, label: 'Assunto'%>
+        <%= f.input :message, label: 'Mensagem' %>
+        <%= f.label "Deseja receber nossos conteúdos" %>
+        <%= f.check_box :subscribed %>
+        <br>
+
+        <%= f.button :submit, "Enviar Conflito", class: 'btn btn-primary' %>
+      <% end %>
+      <br>
+    </div>
+  </div>
+</div>
