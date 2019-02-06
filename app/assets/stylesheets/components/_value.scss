@@ -2,14 +2,32 @@
   border: 1px orange dotted;
   margin: 20px auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   margin-bottom: 30px;
 }
 
+.fa-star{
+  color: orange;
+}
+
+.fa-hand-holding-usd{
+  color: green;
+}
+
+.fa-bullseye{
+  color: red;
+}
+
+.fas{
+  font-weight: bold;
+}
+
 .value-card{
   border: 1px pink dashed;
+  margin-top: 20px 5px 20px 5px;
   text-align: center;
+  padding: 15px 5px 15px 5px;
 }
 
 @media(max-width: 992px){
