@@ -44,5 +44,4 @@ class ConflitosController < ApplicationController
   def conflito_params
     params.require(:conflito).permit(:name, :email, :title, :message, :subscribed, :answered)
   end
-
 end
