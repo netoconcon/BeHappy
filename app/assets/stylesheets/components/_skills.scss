@@ -15,6 +15,7 @@
 
 @media(max-width: 992px) {
   .container-skills{
+    display: block;
   }
 }
 
@@ -62,6 +63,26 @@
   margin-top: 110px;
   color: #00b99b;
 }
+
+@media(max-width: 992px) {
+  .fa-arrow-right{
+    visibility: hidden;
+  }
+}
+
+@media(max-width: 768px) {
+  .fa-arrow-right{
+    visibility: hidden;
+  }
+}
+
+@media(max-width: 480px) {
+  .fa-arrow-right{
+    visibility: hidden;
+  }
+}
+
+
 
 
 
