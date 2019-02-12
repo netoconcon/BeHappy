@@ -33,7 +33,7 @@
 
 .circle{
   background-color: blue;
-  border: 10px solid pink;
+  border: 10px solid #1e2d50;
   margin: 40px;
   height: 200px;
   width: 200px;
@@ -45,9 +45,9 @@
 }
 
 .circle:hover{
-  background-color: pink;
+  background-color: #1e2d50;
   border: 10px solid blue;
-  color: black;
+  color: white;
 }
 
 .skill-title{
