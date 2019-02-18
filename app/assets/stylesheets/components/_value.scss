@@ -7,37 +7,36 @@
 }
 
 .fa-star{
-  color: orange;
+  color: rgba(15,15,15,0.7);
   font-size: 100px;
 }
 
 .fa-star:hover{
-  color: blue;
+  color: rgba(15,15,15,0.7);
   font-size: 120px;
 }
 
 .fa-hand-holding-usd{
-  color: green;
+  color: rgba(15,15,15,0.7)
   font-size: 100px;
 }
 
 .fa-hand-holding-usd:hover{
-  color: blue;
+  color: rgba(15,15,15,0.7)
   font-size: 120px;
 }
 
 .fa-smile-wink{
-  color: gray;
+  color: rgba(15,15,15,0.7)
   font-size: 100px;
 }
 
 .fa-smile-wink:hover{
-  color: blue;
+  color: rgba(15,15,15,0.7)
   font-size: 120px;
 }
 
 .value-card{
-  border: blue 1px solid;
   margin: 50px;
   text-align: center;
   padding: 20px 10px 20px 10px;
@@ -57,7 +56,6 @@
    display: block;
   }
   .value-card{
-    border: blue 1px solid;
     margin: 10px;
   }
 }
@@ -67,7 +65,6 @@
    display: block;
   }
   .value-card{
-    border: blue 1px solid;
     margin: 10px;
   }
 }
