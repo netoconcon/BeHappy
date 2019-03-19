@@ -1,11 +1,12 @@
 .skill-title{
   margin: 50px;
+  h2{
+    color: #395e66;
+  }
+  p {
+    color: #67a9a1;
+  }
 }
-
-.skill-title{
-  margin: 50px;
-}
-
 
 .container-skills{
   margin: 20px 50px;
@@ -32,8 +33,8 @@
 }
 
 .circle{
-  background-color: #00b99b;
-  border: 10px solid #1e2d50;
+  background-color: #395e66;
+  border: 7px solid #67A9A1;
   margin: 40px;
   height: 200px;
   width: 200px;
@@ -45,8 +46,8 @@
 }
 
 .circle:hover{
-  background-color: #1e2d50;
-  border: 10px solid #00b99b;
+  background-color: #FCB749;
+  border: 7px solid #395e66;
   color: white;
 }
 
@@ -61,7 +62,7 @@
 .fa-arrow-right{
   font-size: 50px;
   margin-top: 110px;
-  color: #00b99b;
+  color: #67A9A1;
 }
 
 @media(max-width: 992px) {
