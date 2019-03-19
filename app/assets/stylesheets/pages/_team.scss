@@ -1,10 +1,10 @@
 
 
-#container-mediator strong{
+#container-mentor strong em{
   font-weight: normal;
 }
 
-.container-mediator{
+.container-mentor{
   border: 1px pink dotted;
   margin: 20px 40px;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 
-.card-mediator{
+.card-mentor{
   border: 1px orange dotted;
   text-align: justify;
   flex: 0 0 40%;
@@ -23,29 +23,21 @@
 }
 
 
-.mediator-name{
 
-}
-
-.mediator-special{
-}
-
-.mediator-desc {
-}
 
 
 @media(max-width: 992px){
 }
 
 @media(max-width: 768px) {
-  .container-mediator{
+  .container-mentor{
    display: block;
    margin: 20px 40px;
   }
 }
 
 @media(max-width: 480px) {
-  .container-mediator{
+  .container-mentor{
    display: block;
    margin: 20px 40px;
   }
